@@ -1,0 +1,25 @@
+type() function and typecasting
+
+used to find the data type of the given variable
+
+a = 31
+type(a)  output - class<int>
+
+b = "31"
+type(b)  output - class<str>
+
+interconversion between them is possible.
+
+There are also other functons present
+str(31)   - int to string
+
+int("32")   -- string to int
+
+float(32)   -- int to float
+
+input function usually takes string as default value
+
+a = input("___")
+
+
+-- F string - done
