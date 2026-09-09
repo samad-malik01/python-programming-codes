@@ -1,0 +1,2 @@
+abd = input("Enter any name")
+print(abd[0], abd[-1])
