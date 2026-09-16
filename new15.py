@@ -1,0 +1,13 @@
+'''write a python program to print a hollow square using stars.
+*****
+*   *
+*   *
+*   *
+*****'''
+
+n = 5
+for i in range(n):
+    if i == 0 or i == n-1:
+        print("*" *n)
+    else:
+        print("*" + " " * (n-2) + "*")
